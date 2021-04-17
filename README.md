@@ -59,7 +59,7 @@ The chosen dataset contains listings and reviews of Airbnb listings in Switzerla
 
 #### Structure of the data files
 
-The data is updated on [Inside Airbnb](http://insideairbnb.com/get-the-data.html) every so often. The data that was processed in the framework of Milestone 1 consists of the a merged dataset of the following regions:
+The latest data is updated on [Inside Airbnb](http://insideairbnb.com/get-the-data.html) every so often for each available region. The dataset that was processed in the framework of Milestone 1 consists of a merged dataset of the following regions:
 
 * Geneva (2072 listings), data compiled on February 25, 2021
 * Vaud (4344 listings), data compiled on February 04, 2021
@@ -100,11 +100,11 @@ The first important question is: where are the listings situated?
 
 ![Map of listings](assets/figures/listings-map.png)
 
-As can be observed in the figure above, most listings are densely situated in the Region's hotspot (Geneva City, Lausanne, and Zurich City respectively). An interesting choice from the data provider is to include entire cantons for Geneva and Vaud despite only including the city of Zurich instead of the entire canton.
+As can be observed in the figure above, most listings are densely situated in each of the regions' hotspots (Geneva City, Lausanne, and Zurich City respectively). An interesting choice made by the data provider is to include entire cantons for Geneva and Vaud despite only including the city of Zurich instead of the entire canton.
 
 Next, it could be interesting to get more information about the distributions of certain features and their correlations.
 
-In the following figures, the correlation between features are displayed.
+In the following figure, the correlation between features of interest are displayed.
 
 ![Features correlation](assets/figures/listings-correlation.png)
 
@@ -124,13 +124,13 @@ To cover the average review scores given to each listing, the following figure d
 
 ![Review score correlation](assets/figures/listings-review-correlation.png)
 
-The correlations between review scores show some interesting insights. For instance, the cleanliness is not very correlated with the location score, whereas check-in and communication scores are very correlated.
+The correlations between review scores show some interesting insights. For instance, the cleanliness score is weakly correlated with the location score, whereas check-in and communication scores are highly correlated.
 
 ![Review score correlation](assets/figures/listings-reviews.png)
 
 When comparing regions, it seems that Vaud receives the best reviews out of all Swiss regions. We can also observe that most reviews are very good.
 
-Each listing comes with a description. Below is a figure that displays the word-clouds of the listing description in all three regions. The differences between regions don't seem to be significant.
+Each listing comes with a description. Below is a figure that displays the word-clouds of the listing description in all three regions. There is no significant difference between regions.
 
 ![Word clouds](assets/figures/listings-wordcloud.png)
 
@@ -138,7 +138,7 @@ Finally, we gain some insights from the top 5 amenities per property type, plott
 
 ![Top 5 amenities](assets/figures/listings-amenities.png)
 
-In fact, while Wifi and essentials are most important for rooms, Kitchen and heating seem to predominate the entire place priorities. 
+In fact, while Wifi and essentials are most important for rooms, kitchen and heating seem to predominate the entire place priorities. 
 
 
 ### Related work
