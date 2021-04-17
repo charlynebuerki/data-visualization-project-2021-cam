@@ -2,11 +2,32 @@
 
 | Student's name | SCIPER |
 | -------------- | ------ |
-| | |
-| | |
-| | |
+| Charlyne Bürki | |
+| Arnaud Dhaene  | 269883 |
+| Marijn van der Meer | |
 
 [Milestone 1](#milestone-1) • [Milestone 2](#milestone-2) • [Milestone 3](#milestone-3)
+
+## Repository structure
+
+```
+├── assets
+|   ├── figures      <- Figures generated that are incorporated in README.md
+├── config
+|   └── index.js   
+├── data
+|   ├── README.md    <- More info about data filenames
+|   ├── geneva       <- Geneva region data
+|   ├── vaud         <- Vaud region data
+|   └── zurich       <- Zurich region data
+├── notebooks        <- Python notebooks
+|   └── eda.ipnyb
+├── scripts
+├── .gitignore
+├── index.js
+├── package.json
+├── README.md        <- The current file
+```
 
 ## Milestone 1 (23rd April, 5pm)
 
@@ -22,6 +43,8 @@ Please, fill the following sections about your project.
 > Find a dataset (or multiple) that you will explore. Assess the quality of the data it contains and how much preprocessing / data-cleaning it will require before tackling visualization. We recommend using a standard dataset as this course is not about scraping nor data processing.
 >
 > Hint: some good pointers for finding quality publicly available datasets ([Google dataset search](https://datasetsearch.research.google.com/), [Kaggle](https://www.kaggle.com/datasets), [OpenSwissData](https://opendata.swiss/en/), [SNAP](https://snap.stanford.edu/data/) and [FiveThirtyEight](https://data.fivethirtyeight.com/)), you could use also the DataSets proposed by the ENAC (see the Announcements section on Zulip).
+
+The chosen dataset contains listings and reviews of Airbnb listings in Switzerland. The data is pulled from [Inside Airbnb](http://insideairbnb.com/get-the-data.html) for regions specified in [Project organization](##project-organization).
 
 ### Problematic
 
