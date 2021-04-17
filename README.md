@@ -57,6 +57,90 @@ The chosen dataset contains listings and reviews of Airbnb listings in Switzerla
 > Pre-processing of the data set you chose
 > - Show some basic statistics and get insights about the data
 
+#### Structure of the data files
+
+The data is updated on [Inside Airbnb](http://insideairbnb.com/get-the-data.html) every so often. The data that was processed in the framework of Milestone 1 consists of the a merged dataset of the following regions:
+
+* Geneva (2072 listings), data compiled on February 25, 2021
+* Vaud (4344 listings), data compiled on February 04, 2021
+* Zurich (1806 listings), data compiled on February 26, 2021
+
+Each of the above-mentioned regions contains the following information:
+
+* Detailed Listings data, found in `listings-detailed.csv`
+* Detailed Calendar data, found in `calendar.csv`
+* Detailed Review data, found in `reviews-detailed.csv`
+* Summary information and metrics for Listings, found in `listings.csv`
+* Summary Review data and Listing ID, found in `reviews.csv`
+* Neighbourhood list for geo filter, found in `neighbourhoods.csv`
+* GeoJSON file or neighbourhoods of the region, found in `neighbourhoods.geojson`
+
+#### Listings
+
+##### Pre-processing
+
+The listings table is relatively clean when downloaded from [Inside Airbnb](http://insideairbnb.com/get-the-data.html). Some routine formatting includes formatting the dates into a readable datetime format, parsing the price, counting the amount of amenities, and reducing the amount of possible property types from 68 to one of {Entire place, Private room, other} using simple parsing.
+
+Additionally, a feature is added that contains the days a listing's host has been a Airbnb host.
+
+The features for the available listings are: 
+
+* Scraping (ID, timestamp)
+* Listing (name, description, price)
+* Neighborhood
+* Host (name, signup date, location, about, response time, response rate, acceptance rate, superhost, thumbnail, picture, neighboorhoud, amoung of lisitings, verifications, verified)
+* Location (longitude and latitude)
+* Property (beds, bedrooms, bathrooms, amenities)
+* Reviews (rating, accuracy, cleanliness, check-in, communication, location, value, amount of reviews per month)
+* Availability (minimum and maximum number of nights, availability for the next 30, 60, 90, and 365 days)
+
+##### Data insights
+
+The first important question is: where are the listings situated?
+
+![Map of listings](assets/figures/listings-map.png)
+
+As can be observed in the figure above, most listings are densely situated in the Region's hotspot (Geneva City, Lausanne, and Zurich City respectively). An interesting choice from the data provider is to include entire cantons for Geneva and Vaud despite only including the city of Zurich instead of the entire canton.
+
+Next, it could be interesting to get more information about the distributions of certain features and their correlations.
+
+In the following figures, the correlation between features are displayed.
+
+![Features correlation](assets/figures/listings-correlation.png)
+
+Most of the above-plotted correlations are not surprising (e.g. number of beds with number of bedrooms).
+
+Gathering some more information with regards to the listings, the following figure shows the distribution of different property types in each region. As can be observed, rooms are more frequent in Geneva whereas in Vaud and Zurich, it is more common to rent our one's entire place.
+
+![Frequency of property type in Swiss listings](assets/figures/listings-type.png)
+
+How does this affect the distribution of prices for each property type?
+
+As we can observe on the following figure, Vaud provides properties with a large number of beds. On the other hand, Geneva's small offering of entire places contain a surprisingly small amount of beds. Another insight is that the Zurich region contains a clear subset of pricy properties, and displays prices that are generally higher than the other Swiss regions.
+
+![Price distribution](assets/figures/listings-price-dist.png)
+
+To cover the average review scores given to each listing, the following figure displays correlations between review score categories.
+
+![Review score correlation](assets/figures/listings-review-correlation.png)
+
+The correlations between review scores show some interesting insights. For instance, the cleanliness is not very correlated with the location score, whereas check-in and communication scores are very correlated.
+
+![Review score correlation](assets/figures/listings-reviews.png)
+
+When comparing regions, it seems that Vaud receives the best reviews out of all Swiss regions. We can also observe that most reviews are very good.
+
+Each listing comes with a description. Below is a figure that displays the word-clouds of the listing description in all three regions. The differences between regions don't seem to be significant.
+
+![Word clouds](assets/figures/listings-wordcloud.png)
+
+Finally, we gain some insights from the top 5 amenities per property type, plotted below.
+
+![Top 5 amenities](assets/figures/listings-amenities.png)
+
+In fact, while Wifi and essentials are most important for rooms, Kitchen and heating seem to predominate the entire place priorities. 
+
+
 ### Related work
 
 
