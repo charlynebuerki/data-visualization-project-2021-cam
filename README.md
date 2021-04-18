@@ -189,7 +189,7 @@ As the two distributions are exactly alike and due to the lack of documentation,
 
 ![Map of listings](assets/figures/reviews/reviews_top_10.png)
 ![Map of listings](assets/figures/reviews/reviews_top_10_yearly.png)
-![Map of listings](assets/figures/reviews/top_5_reviews_long.png)
+![Map of listings](assets/figures/reviews/top5_reviews_long.png)
 ![Map of listings](assets/figures/reviews/top_5_vaud.png)
 
 
