@@ -52,6 +52,8 @@ The chosen dataset contains listings and reviews of Airbnb listings in Switzerla
 > - What am I trying to show with my visualization?
 > - Think of an overview for the project, your motivation, and the target audience.
 
+Because of the current pandemic, the hospitality sector has been hit hard. Regardless of recent relaxations of safety measures and the increase in vaccinations, we expect that this year again, holidays in Switzerland will be favoured and encouraged by the government for the Swiss population instead of staying abroad. To encourage this, we plan on giving an insight into the best Airbnb locations in three major regions of Switzerland: Geneva, Vaud and Zurich. Through our visualisations, locals will have the ability to choose the best locations corresponding to their criteria and favour local tourism. 
+
 ### Exploratory Data Analysis
 
 > Pre-processing of the data set you chose
@@ -74,6 +76,8 @@ Each of the above-mentioned regions contains the following information:
 * Summary Review data and Listing ID, found in `reviews.csv`
 * Neighbourhood list for geo filter, found in `neighbourhoods.csv`
 * GeoJSON file or neighbourhoods of the region, found in `neighbourhoods.geojson`
+
+In addition to this, archived data going back to January 2020 is available for some of the datasets. 
 
 #### Listings
 
@@ -139,6 +143,33 @@ Finally, we gain some insights from the top 5 amenities per property type, plott
 ![Top 5 amenities](assets/figures/listings-amenities.png)
 
 In fact, while Wifi and essentials are most important for rooms, kitchen and heating seem to predominate the entire place priorities. 
+
+
+#### Calendar
+
+##### Pre-processing
+
+The calendar table is downloaded from [Inside Airbnb](http://insideairbnb.com/get-the-data.html). The price and adjusted price was formatted into parseable data and all dates were changed into readable datetime format. The calendar data contains price per night predictions and availabilities for listings a few months into the future. 
+
+The features for the calendar data after pre-processing are: 
+
+* Time-stamp
+* Listing ID 
+* Available on that date (True, False)
+* Price [$/night]
+* Adjusted Price [$/night]
+* Minimum Nights
+* Maximum Nights
+
+##### Data insights
+
+As a first insight, we wanted to understand the difference between adjusted price and price. There was no additional documentation for these columns so we take a look at the distribution of the average price for all listings. 
+
+![Map of listings](assets/figures/calendar/distribution.png)
+
+As the two distributions are exactly alike and due to the lack of documentation, we chose to ignore this column for the rest of this study. 
+
+
 
 
 ### Related work
