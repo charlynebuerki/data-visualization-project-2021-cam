@@ -2,7 +2,7 @@
 
 | Student's name | SCIPER |
 | -------------- | ------ |
-| Charlyne Bürki | |
+| Charlyne Bürki | 261415 |
 | Arnaud Dhaene  | 269883 |
 | Marijn van der Meer | |
 
@@ -52,7 +52,7 @@ The chosen dataset contains listings and reviews of Airbnb listings in Switzerla
 > - What am I trying to show with my visualization?
 > - Think of an overview for the project, your motivation, and the target audience.
 
-Because of the current pandemic, the hospitality sector has been hit hard. Regardless of recent relaxations of safety measures and the increase in vaccinations, we expect that this year again, holidays in Switzerland will be favoured and encouraged by the government for the Swiss population instead of staying abroad. To encourage this, we plan on giving an insight into the best Airbnb locations in three major regions of Switzerland: Geneva, Vaud and Zurich. Through our visualisations, locals will have the ability to choose the best locations corresponding to their criteria and favour local tourism. 
+Because of the current pandemic, the hospitality sector has been hit hard. Regardless of recent relaxations of safety measures and the increase in vaccinations, we expect that this year again, holidays in Switzerland will be favoured and encouraged by the government for the Swiss population instead of staying abroad. To encourage this, we plan on giving an insight into the best Airbnb locations in three major regions of Switzerland: Geneva, Vaud and Zurich. Through our visualisations, locals will have the ability to choose the best locations corresponding to their criteria and favour local tourism. Local Airbnb listings owners will equally benefit from more in-depth knowledge about the clients' demands at a regional level, allowing them to tailor their listing to the gathered data. In other words, they will be able to maximize profit by adapting their offer to the regional demands.  
 
 ### Exploratory Data Analysis
 
@@ -177,8 +177,20 @@ As the two distributions are exactly alike and due to the lack of documentation,
 ![Map of listings](assets/figures/calendar/calendar-price-evolution-vaud.png)
 ![Map of listings](assets/figures/calendar/calendar-price-evolution-zurich.png)
 
+#### Reviews
 
+**COMPLETER**
 
+##### Pre-processing
+
+**COMPLETER**
+
+##### Data Insights
+
+![Map of listings](assets/figures/reviews/reviews_top_10.png)
+![Map of listings](assets/figures/reviews/reviews_top_10_yearly.png)
+![Map of listings](assets/figures/reviews/top_5_reviews_long.png)
+![Map of listings](assets/figures/reviews/top_5_vaud.png)
 
 
 ### Related work
@@ -188,6 +200,11 @@ As the two distributions are exactly alike and due to the lack of documentation,
 > - Why is your approach original?
 > - What source of inspiration do you take? Visualizations that you found on other websites or magazines (might be unrelated to your data).
 > - In case you are using a dataset that you have already explored in another context (ML or ADA course, semester project...), you are required to share the report of that work to outline the differences with the submission for this class.
+
+The Inside Airbnb platform aims to provide information regarding the effects of Airbnb listings and their effects on the economies of the housing and renting markets. The platform allows data visualization on the form of a map, given the different areas selected. 
+We employ their data using an original approach as follows: we focus on 3 specific areas in Switzerland, selecting certain pertinent listings to reflect the local economy. We further aim to provide recommendations to both local tourists and listings owners in order to simultaneously (1) provide personalized recommandations regarding their expectation and (2) boost their visibility and learn from their clients' expectations to overcome the COVID aftermath.
+
+**COMPLETER** -- sources of inspiration 
 
 ## Milestone 2 (7th May, 5pm)
 
