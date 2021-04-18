@@ -161,13 +161,22 @@ The features for the calendar data after pre-processing are:
 * Minimum Nights
 * Maximum Nights
 
-##### Data insights
-
 As a first insight, we wanted to understand the difference between adjusted price and price. There was no additional documentation for these columns so we take a look at the distribution of the average price for all listings. 
 
 ![Map of listings](assets/figures/calendar/distribution.png)
 
-As the two distributions are exactly alike and due to the lack of documentation, we chose to ignore this column for the rest of this study. 
+As the two distributions are exactly alike and due to the lack of documentation, we chose to ignore this column for the rest of this data analysis. 
+
+##### Data insights
+
+**COMPLETER**
+
+![Map of listings](assets/figures/calendar/calendar-pies.png)
+![Map of listings](assets/figures/calendar/calendar-average-price.png)
+![Map of listings](assets/figures/calendar/calendar-price-evolution-geneva.png)
+![Map of listings](assets/figures/calendar/calendar-price-evolution-vaud.png)
+![Map of listings](assets/figures/calendar/calendar-price-evolution-zurich.png)
+
 
 
 
