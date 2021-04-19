@@ -128,15 +128,13 @@ While Wifi and essentials are most important for rooms, kitchen and heating seem
 
 #### Calendar
 
-What is the difference in average price between the three locations? 
-
-We calculate the average price for each listing from the most recent price predictions (February 2021). Each listing is distributed into different average price categories of 100$ intervals. We plot the percentage of listings per category. 
+**What is the difference in average price of listings between the three locations?**
 
 ![Map of listings](assets/figures/calendar/calendar-pies.png)
 
-We see that Geneva and Vaud have more listings in the cheaper category than Zurich. Zurich also has a significant part of listings in the higher [500-600$/night] category compared to the others. 
+Geneva and Vaud have more listings in the cheaper category than Zurich. Zurich also has a significant part of listings in the higher [500-600$/night] category compared to the others. 
 
-Was there an impact of Covid-19 on price predictions? 
+**Was there an impact of Covid-19 on price predictions?**
 
 For each location and the first four price categories, we plot the time-series of average price predictions. This is done for four different predictions: before the pandemic (January 2020), during the first wave (May 2020) and second wave (December 2020-February 2021). We also add in local holidays (grey dotted lines) and significant dates of the pandemic (red dotted lines): 
 *  13 March 2020: beginning of pandemic restrictions (mostly in the Romandie)
@@ -148,7 +146,7 @@ For each location and the first four price categories, we plot the time-series o
 ![Map of listings](assets/figures/calendar/calendar-price-evolution-geneva.png)
 ![Map of listings](assets/figures/calendar/calendar-price-evolution-zurich.png)
 
-From these we gain a lot of insight, notably that price predictions in May 2020 are lower than those made pre-pandemic in almost all categories. Most drastically, the 13th of March had a very important drop in prices in Geneva. We see also the impact on prices from holidays such as Easter and New Year, with significant peaks.
+Price predictions in May 2020 are lower than those made pre-pandemic in almost all categories. More drastically, the 13th of March had a very important drop in prices in Geneva. We see also the impact on prices from holidays such as Easter and New Year.
 
 #### Reviews
 
