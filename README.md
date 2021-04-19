@@ -177,8 +177,8 @@ For each location and the first four price categories, we plot the time-series o
 *  25 June 2020: most of the restrictions lifted in whole Switzerland
 *  22 October 2020: beginning of second wave, restrictions back
 
-![Map of listings](assets/figures/calendar/calendar-price-evolution-geneva.png)
 ![Map of listings](assets/figures/calendar/calendar-price-evolution-vaud.png)
+![Map of listings](assets/figures/calendar/calendar-price-evolution-geneva.png)
 ![Map of listings](assets/figures/calendar/calendar-price-evolution-zurich.png)
 
 From these we gain a lot of insight, notably that price predictions in May 2020 are lower than those made pre-pandemic in almost all categories. Most drastically, the 13th of March had a very important drop in prices in Geneva. We see also the impact on prices from holidays such as Easter and New Year, with significant peaks.
