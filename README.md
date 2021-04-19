@@ -46,19 +46,6 @@ Please, fill the following sections about your project.
 
 The chosen dataset contains listings and reviews of Airbnb listings in Switzerland. The data is pulled from [Inside Airbnb](http://insideairbnb.com/get-the-data.html) for regions specified in [Project organization](##project-organization).
 
-### Problematic
-
-> Frame the general topic of your visualization and the main axis that you want to develop.
-> - What am I trying to show with my visualization?
-> - Think of an overview for the project, your motivation, and the target audience.
-
-Because of the current pandemic, the hospitality sector has been hit hard. Regardless of recent relaxations of safety measures and the increase in vaccinations, we expect that this year again, holidays in Switzerland will be favoured and encouraged by the government for the Swiss population instead of staying abroad. To encourage this, we plan on giving an insight into the best Airbnb locations in three major regions of Switzerland: Geneva, Vaud and Zurich. Through our visualisations, locals will have the ability to choose the best locations corresponding to their criteria and favour local tourism. Local Airbnb listings owners will equally benefit from more in-depth knowledge about the clients' demands at a regional level, allowing them to tailor their listing to the gathered data. In other words, they will be able to maximize profit by adapting their offer to the regional demands.  
-
-### Exploratory Data Analysis
-
-> Pre-processing of the data set you chose
-> - Show some basic statistics and get insights about the data
-
 #### Structure of the data files
 
 The latest data is updated on [Inside Airbnb](http://insideairbnb.com/get-the-data.html) every so often for each available region. The dataset that was processed in the framework of Milestone 1 consists of a merged dataset of the following regions:
@@ -79,28 +66,26 @@ Each of the above-mentioned regions contains the following information:
 
 In addition to this, archived data going back to January 2020 is available for some of the datasets. 
 
+### Problematic
+
+> Frame the general topic of your visualization and the main axis that you want to develop.
+> - What am I trying to show with my visualization?
+> - Think of an overview for the project, your motivation, and the target audience.
+
+Because of the current pandemic, the hospitality sector has been hit hard. Regardless of recent relaxations of safety measures and the increase in vaccinations, we expect that this year again, holidays in Switzerland will be favoured and encouraged by the government for the Swiss population instead of staying abroad. To encourage this, we plan on giving an insight into the best Airbnb locations in three major regions of Switzerland: Geneva, Vaud and Zurich. Through our visualisations, locals will have the ability to choose the best locations corresponding to their criteria and favour local tourism. Local Airbnb listings owners will equally benefit from more in-depth knowledge about the clients' demands at a regional level, allowing them to tailor their listing to the gathered data. In other words, they will be able to maximise profit by adapting their offer to the regional demands.  
+
+### Exploratory Data Analysis
+
+> Pre-processing of the data set you chose
+> - Show some basic statistics and get insights about the data
+
+## Pre-processing
+All pre-processing steps for each dataset can be found in `pre-processing.md`.
+
+## Data Insights
 #### Listings
 
-##### Pre-processing
-
-The listings table is relatively clean when downloaded from [Inside Airbnb](http://insideairbnb.com/get-the-data.html). Some routine formatting includes formatting the dates into a readable datetime format, parsing the price, counting the amount of amenities, and reducing the amount of possible property types from 68 to one of {Entire place, Private room, other} using simple parsing.
-
-Additionally, a feature is added that contains the days a listing's host has been a Airbnb host.
-
-The features for the available listings are: 
-
-* Scraping (ID, timestamp)
-* Listing (name, description, price)
-* Neighborhood
-* Host (name, signup date, location, about, response time, response rate, acceptance rate, superhost, thumbnail, picture, neighboorhoud, amoung of lisitings, verifications, verified)
-* Location (longitude and latitude)
-* Property (beds, bedrooms, bathrooms, amenities)
-* Reviews (rating, accuracy, cleanliness, check-in, communication, location, value, amount of reviews per month)
-* Availability (minimum and maximum number of nights, availability for the next 30, 60, 90, and 365 days)
-
-##### Data insights
-
-The first important question is: where are the listings situated?
+Where are the listings situated?
 
 ![Map of listings](assets/figures/listings-map.png)
 
@@ -147,20 +132,6 @@ In fact, while Wifi and essentials are most important for rooms, kitchen and hea
 
 #### Calendar
 
-##### Pre-processing
-
-The calendar data contains price per night predictions and availabilities for listings a few months into the future. The price was formatted into parseable data and all dates were changed into readable datetime format. 
-
-The features for the calendar data after pre-processing are: 
-
-* Time-stamp
-* Listing ID 
-* Availability on a date
-* Price [$/night]
-* Max/Min nights
-
-##### Data insights
-
 What is the difference in average price between the three locations? 
 
 We calculate the average price for each listing from the most recent price predictions (February 2021). Each listing is distributed into different average price categories of 100$ intervals. We plot the percentage of listings per category. 
@@ -184,17 +155,6 @@ For each location and the first four price categories, we plot the time-series o
 From these we gain a lot of insight, notably that price predictions in May 2020 are lower than those made pre-pandemic in almost all categories. Most drastically, the 13th of March had a very important drop in prices in Geneva. We see also the impact on prices from holidays such as Easter and New Year, with significant peaks.
 
 #### Reviews
-
-##### Pre-processing
-
-The reviews data contains the listing ID and the date at which a review was made. All dates were changed into readable datetime format.  
-
-The features for the reviews data after pre-processing are: 
-
-* Time-stamp
-* Listing ID 
-
-##### Data Insights
 
 Reviews can represent Airbnb activity since users will typically review a listing they stayed at shortly after their stay. In this part, we inform ourselves of the overal trends of Airbnb activity within the three regions, limiting ourselves to the top 10 most-reviewed listings, since these are the most pertinent. 
 
