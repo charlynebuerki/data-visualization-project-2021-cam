@@ -149,47 +149,39 @@ In fact, while Wifi and essentials are most important for rooms, kitchen and hea
 
 ##### Pre-processing
 
-The calendar table is downloaded from [Inside Airbnb](http://insideairbnb.com/get-the-data.html). The price and adjusted price was formatted into parseable data and all dates were changed into readable datetime format. The calendar data contains price per night predictions and availabilities for listings a few months into the future. 
+The calendar data contains price per night predictions and availabilities for listings a few months into the future. The price was formatted into parseable data and all dates were changed into readable datetime format. 
 
 The features for the calendar data after pre-processing are: 
 
 * Time-stamp
 * Listing ID 
-* Available on that date (True, False)
+* Availability on a date
 * Price [$/night]
-* Adjusted Price [$/night]
-* Minimum Nights
-* Maximum Nights
-
-As a first insight, we wanted to understand the difference between adjusted price and price. There was no additional documentation for these columns so we take a look at the distribution of the average price for all listings. 
-
-![Map of listings](assets/figures/calendar/distribution.png)
-
-As the two distributions are exactly alike and due to the lack of documentation, we chose to ignore this column for the rest of this data analysis. 
+* Max/Min nights
 
 ##### Data insights
 
-What is the difference in average price between the tree locations ? 
+What is the difference in average price between the tree locations? 
 
-For this, we calculate the average price for each listing from the most recent price predictions (calendar data from February 2021). Then each listing is distributed into different price categories of 100$ intervals: [0-100$/night], [100-200$/night], [300-400$/night], etc. Then we plot the percentage of listings per average price per night category. 
+We calculate the average price for each listing from the most recent price predictions (February 2021). Each listing is distributed into different average price categories of 100$ intervals. We plot the percentage of listings per category. 
 
 ![Map of listings](assets/figures/calendar/calendar-pies.png)
 
-From this we see that Geneva and Vaud have more listings in the cheaper category than Zurich. Zurich also has a significant part of listings in the [500-600$/night] category compared to the others. 
+We see that Geneva and Vaud have more listings in the cheaper category than Zurich. Zurich also has a significant part of listings in the higher [500-600$/night] category compared to the others. 
 
-Was there an impact of Covid-19 on price predictions ? 
+Was there an impact of Covid-19 on price predictions? 
 
-For each location and the first four price categories, we plot the time-series of average price predictions for four time data: predictions before the pandemic (January 2020), predictions during the first wave (May 2020), second wave (December 2020-February 2021). On these, we also plot in grey dotted lines local holidays to see if they impact prices. In red dotted lines, significant dates of the pandemic are added: 
-*  13 March 2020: begin of pandemic restrictions in Switzerland (mostly in the Romandie)
-*  27 April 2020: some restrictions are lifted in most cantons 
-*  25 June 2020: most of the restrictions are lifted in whole Switzerland (also beginning of mask mandates)
-*  22 October 2020: begin of second wave, restrictions back
+For each location and the first four price categories, we plot the time-series of average price predictions. This is done for four different predictions: before the pandemic (January 2020), during the first wave (May 2020) and second wave (December 2020-February 2021). We also add in local holidays (grey dotted lines) and significant dates of the pandemic (red dotted lines): 
+*  13 March 2020: beginning of pandemic restrictions (mostly in the Romandie)
+*  27 April 2020: some restrictions lifted in most cantons 
+*  25 June 2020: most of the restrictions lifted in whole Switzerland
+*  22 October 2020: beginning of second wave, restrictions back
 
 ![Map of listings](assets/figures/calendar/calendar-price-evolution-geneva.png)
 ![Map of listings](assets/figures/calendar/calendar-price-evolution-vaud.png)
 ![Map of listings](assets/figures/calendar/calendar-price-evolution-zurich.png)
 
-From these we gain a lot of insight, notably that price predictions in May 2020 are notably lower than those made pre-pandemic in almost all categories. Most drastically, the 13th of March had a very important drop in prices in Geneva. We see also the impact on prices from holidays such as Easter and New Year, with significant peaks.
+From these we gain a lot of insight, notably that price predictions in May 2020 are lower than those made pre-pandemic in almost all categories. Most drastically, the 13th of March had a very important drop in prices in Geneva. We see also the impact on prices from holidays such as Easter and New Year, with significant peaks.
 
 #### Reviews
 
