@@ -169,13 +169,27 @@ As the two distributions are exactly alike and due to the lack of documentation,
 
 ##### Data insights
 
-**COMPLETER**
+What is the difference in average price between the tree locations ? 
+
+For this, we calculate the average price for each listing from the most recent price predictions (calendar data from February 2021). Then each listing is distributed into different price categories of 100$ intervals: [0-100$/night], [100-200$/night], [300-400$/night], etc. Then we plot the percentage of listings per average price per night category. 
 
 ![Map of listings](assets/figures/calendar/calendar-pies.png)
-![Map of listings](assets/figures/calendar/calendar-average-price.png)
+
+From this we see that Geneva and Vaud have more listings in the cheaper category than Zurich. Zurich also has a significant part of listings in the [500-600$/night] category compared to the others. 
+
+Was there an impact of Covid-19 on price predictions ? 
+
+For each location and the first four price categories, we plot the time-series of average price predictions for four time data: predictions before the pandemic (January 2020), predictions during the first wave (May 2020), second wave (December 2020-February 2021). On these, we also plot in grey dotted lines local holidays to see if they impact prices. In red dotted lines, significant dates of the pandemic are added: 
+*  13 March 2020: begin of pandemic restrictions in Switzerland (mostly in the Romandie)
+*  27 April 2020: some restrictions are lifted in most cantons 
+*  25 June 2020: most of the restrictions are lifted in whole Switzerland (also beginning of mask mandates)
+*  22 October 2020: begin of second wave, restrictions back
+
 ![Map of listings](assets/figures/calendar/calendar-price-evolution-geneva.png)
 ![Map of listings](assets/figures/calendar/calendar-price-evolution-vaud.png)
 ![Map of listings](assets/figures/calendar/calendar-price-evolution-zurich.png)
+
+From these we gain a lot of insight, notably that price predictions in May 2020 are notably lower than those made pre-pandemic in almost all categories. Most drastically, the 13th of March had a very important drop in prices in Geneva. We see also the impact on prices from holidays such as Easter and New Year, with significant peaks.
 
 #### Reviews
 
