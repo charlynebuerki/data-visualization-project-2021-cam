@@ -87,42 +87,42 @@ All pre-processing steps for each dataset can be found in `pre-processing.md`.
 
 **Where are the listings situated?**
 
-![Map of listings](assets/figures/listings-map.png)
+![Map of listings](assets/figures/listings/listings-map.png)
 
 Most listings are densely situated in each of the regions' hotspots (Geneva City, Lausanne, and Zurich City respectively). 
 
 **How are certain features distributed and correlated?** 
 
-![Features correlation](assets/figures/listings-correlation.png)
+![Features correlation](assets/figures/listings/listings-correlation.png)
 
 Most of the above-plotted correlations are not surprising (e.g. number of beds with number of bedrooms).
 
-![Frequency of property type in Swiss listings](assets/figures/listings-type.png)
+![Frequency of property type in Swiss listings](assets/figures/listings/listings-type.png)
 
 Rooms are more frequent in Geneva whereas in Vaud and Zurich, it is more common to rent our one's entire place.
 
 **How does this affect the distribution of prices for each property type?**
 
-![Price distribution](assets/figures/listings-price-dist.png)
+![Price distribution](assets/figures/listings/listings-price-dist.png)
 
 Vaud provides properties with a large number of beds, Geneva's small offering of entire places contain a small amount of beds and Zurich  contains a clear subset of pricy properties, and displays prices generally higher than the other Swiss regions.
 
 **How are review scores correlated between different demands?**
 
-![Review score correlation](assets/figures/listings-review-correlation.png)
+![Review score correlation](assets/figures/listings/listings-review-correlation.png)
 
 Cleanliness score is interestingly weakly correlated with the location score, whereas check-in and communication scores are highly correlated.
 
-![Review score correlation](assets/figures/listings-reviews.png)
+![Review score correlation](assets/figures/listings/listings-reviews.png)
 
 When comparing regions, Vaud receives the best reviews out of all Swiss regions. We can also observe that most reviews are very good.
 
 **What words are most common in listing descriptions?**
 
-![Word clouds](assets/figures/listings-wordcloud.png)
+![Word clouds](assets/figures/listings/listings-wordcloud.png)
 
 **What are the top amenities in properties?**
-![Top 5 amenities](assets/figures/listings-amenities.png)
+![Top 5 amenities](assets/figures/listings/listings-amenities.png)
 
 While Wifi and essentials are most important for rooms, kitchen and heating seem to predominate the entire place priorities. 
 
