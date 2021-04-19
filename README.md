@@ -196,8 +196,24 @@ The features for the reviews data after pre-processing are:
 
 ##### Data Insights
 
+Reviews can represent Airbnb activity since users will typically review a listing they stayed at shortly after their stay. In this part, we inform ourselves of the overal trends of Airbnb activity within the three regions, limiting ourselves to the top 10 most-reviewed listings, since these are the most pertinent. 
+
+Airbnb Activity :
+From the figure we see the following, noting that in blue important COVID milestones are highlighted:
+* Generally speaking, listings are reviewed primarily during the summer months
+* Up until beginning of 2020 (COVID), the activity in all three regions was increasing
+* Following the restrictions announced, activity all but ceased
+* Following relaxation of restrictions in summer 2020, the area of Zurich rebounded earlier than the french-speaking regions
+
 ![Map of listings](assets/figures/reviews/reviews_top_10.png)
-![Map of listings](assets/figures/reviews/reviews_top_10_yearly.png)
+
+We wanted to gain a more detailed understanding of listings contained within the top 5 most-reviewed data. This allows us to study whether the more-reviewed listings are long established venues or whether they are attractive because they are new. In the first figure, we study the three areas, the second figure zooms in on the listings in Vaud.
+
+We observe the following:
+* Older listings are reviewed at a constant cyclic rate while newer listings have greater peaks of reviews than the other listings
+* Zurich and Geneva being larger cities have more activity than the Vaud region
+* Despite being the most reviewed listings, this did not save the listings' activites when the COVID restrictions were announced
+
 ![Map of listings](assets/figures/reviews/top5_reviews_long.png)
 ![Map of listings](assets/figures/reviews/top_5_vaud.png)
 
@@ -212,8 +228,16 @@ The features for the reviews data after pre-processing are:
 
 The Inside Airbnb platform aims to provide information regarding the effects of Airbnb listings and their effects on the economies of the housing and renting markets. The platform allows data visualization on the form of a map, given the different areas selected. 
 We employ their data using an original approach as follows: we focus on 3 specific areas in Switzerland, selecting certain pertinent listings to reflect the local economy. We further aim to provide recommendations to both local tourists and listings owners in order to simultaneously (1) provide personalized recommandations regarding their expectation and (2) boost their visibility and learn from their clients' expectations to overcome the COVID aftermath.
+Contrary to most Airbnb existing visualisations like [this one](https://www.kaggle.com/erikbruin/airbnb-the-amsterdam-story-with-interactive-maps), [this one](https://nycdatascience.com/blog/student-works/how-airbnb-is-in-nyc-interactive-data-visualization-in-r/) or [this one](http://www.columbia.edu/~sg3637/airbnb_final_analysis.html), we focus on the three regions available in Switzerland. Rather than focusing solely on a city. We are also analysing the data post-COVID restrictions, which gives more insight as to which airbnb locations may be more robust and what can owners do to reproduce such success. 
 
-**COMPLETER** -- sources of inspiration 
+Some inspiration :
+
+ **COMPLETER**  
+
+* [location and comparaison of attributes on a map](https://multimedia.scmp.com/infographics/news/world/article/3077057/europe-coronavirus/index.html)
+* [uniform style and poignant story telling on complex probles](https://fingfx.thomsonreuters.com/gfx/rngs/FINANCIAL-CRISIS2008/0100805F0BK/index.html)
+* [story telling and simple animations ](https://graphics.reuters.com/EUROPE-MIGRANTS/010070WZ1W2/index.html)
+
 
 ## Milestone 2 (7th May, 5pm)
 
