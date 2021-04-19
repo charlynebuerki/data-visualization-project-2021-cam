@@ -161,7 +161,7 @@ The features for the calendar data after pre-processing are:
 
 ##### Data insights
 
-What is the difference in average price between the tree locations? 
+What is the difference in average price between the three locations? 
 
 We calculate the average price for each listing from the most recent price predictions (February 2021). Each listing is distributed into different average price categories of 100$ intervals. We plot the percentage of listings per category. 
 
@@ -185,11 +185,14 @@ From these we gain a lot of insight, notably that price predictions in May 2020 
 
 #### Reviews
 
-**COMPLETER**
-
 ##### Pre-processing
 
-**COMPLETER**
+The reviews data contains the listing ID and the date at which a review was made. All dates were changed into readable datetime format.  
+
+The features for the reviews data after pre-processing are: 
+
+* Time-stamp
+* Listing ID 
 
 ##### Data Insights
 
