@@ -85,48 +85,46 @@ All pre-processing steps for each dataset can be found in `pre-processing.md`.
 ## Data Insights
 #### Listings
 
-Where are the listings situated?
+**Where are the listings situated?**
 
 ![Map of listings](assets/figures/listings-map.png)
 
 Most listings are densely situated in each of the regions' hotspots (Geneva City, Lausanne, and Zurich City respectively). 
 
-How are certain features distributed and correlated? 
+**How are certain features distributed and correlated?** 
 
 ![Features correlation](assets/figures/listings-correlation.png)
 
 Most of the above-plotted correlations are not surprising (e.g. number of beds with number of bedrooms).
 
-Gathering some more information with regards to the listings, the following figure shows the distribution of different property types in each region. As can be observed, rooms are more frequent in Geneva whereas in Vaud and Zurich, it is more common to rent our one's entire place.
-
 ![Frequency of property type in Swiss listings](assets/figures/listings-type.png)
 
-How does this affect the distribution of prices for each property type?
+As can be observed, rooms are more frequent in Geneva whereas in Vaud and Zurich, it is more common to rent our one's entire place.
 
-As we can observe on the following figure, Vaud provides properties with a large number of beds. On the other hand, Geneva's small offering of entire places contain a surprisingly small amount of beds. Another insight is that the Zurich region contains a clear subset of pricy properties, and displays prices that are generally higher than the other Swiss regions.
+**How does this affect the distribution of prices for each property type?**
 
 ![Price distribution](assets/figures/listings-price-dist.png)
 
-To cover the average review scores given to each listing, the following figure displays correlations between review score categories.
+Vaud provides properties with a large number of beds. On the other hand, Geneva's small offering of entire places contain a surprisingly small amount of beds. The region of Zurich  contains a clear subset of pricy properties, and displays prices generally higher than the other Swiss regions.
+
+**How are review scores correlated between different demands?**
 
 ![Review score correlation](assets/figures/listings-review-correlation.png)
 
-The correlations between review scores show some interesting insights. For instance, the cleanliness score is weakly correlated with the location score, whereas check-in and communication scores are highly correlated.
+Cleanliness score is interestingly weakly correlated with the location score, whereas check-in and communication scores are highly correlated.
 
 ![Review score correlation](assets/figures/listings-reviews.png)
 
-When comparing regions, it seems that Vaud receives the best reviews out of all Swiss regions. We can also observe that most reviews are very good.
+When comparing regions, Vaud receives the best reviews out of all Swiss regions. We can also observe that most reviews are very good.
 
-Each listing comes with a description. Below is a figure that displays the word-clouds of the listing description in all three regions. There is no significant difference between regions.
+**What words are most common in listing descriptions?**
 
 ![Word clouds](assets/figures/listings-wordcloud.png)
 
-Finally, we gain some insights from the top 5 amenities per property type, plotted below.
-
+**What are the top amenities in properties?**
 ![Top 5 amenities](assets/figures/listings-amenities.png)
 
-In fact, while Wifi and essentials are most important for rooms, kitchen and heating seem to predominate the entire place priorities. 
-
+While Wifi and essentials are most important for rooms, kitchen and heating seem to predominate the entire place priorities. 
 
 #### Calendar
 
