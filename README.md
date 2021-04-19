@@ -50,9 +50,9 @@ The chosen dataset contains listings and reviews of Airbnb listings in Switzerla
 
 The latest data is updated on [Inside Airbnb](http://insideairbnb.com/get-the-data.html) every so often for each available region. The dataset that was processed in the framework of Milestone 1 consists of a merged dataset of the following regions:
 
-* Geneva (2072 listings), data compiled on February 25, 2021
-* Vaud (4344 listings), data compiled on February 04, 2021
-* Zurich (1806 listings), data compiled on February 26, 2021
+* Geneva canton (2072 listings), data compiled on February 25, 2021
+* Vaud canton (4344 listings), data compiled on February 04, 2021
+* Zurich city (1806 listings), data compiled on February 26, 2021
 
 Each of the above-mentioned regions contains the following information:
 
@@ -89,11 +89,9 @@ Where are the listings situated?
 
 ![Map of listings](assets/figures/listings-map.png)
 
-As can be observed in the figure above, most listings are densely situated in each of the regions' hotspots (Geneva City, Lausanne, and Zurich City respectively). An interesting choice made by the data provider is to include entire cantons for Geneva and Vaud despite only including the city of Zurich instead of the entire canton.
+Most listings are densely situated in each of the regions' hotspots (Geneva City, Lausanne, and Zurich City respectively). 
 
-Next, it could be interesting to get more information about the distributions of certain features and their correlations.
-
-In the following figure, the correlation between features of interest are displayed.
+How are certain features distributed and correlated? 
 
 ![Features correlation](assets/figures/listings-correlation.png)
 
