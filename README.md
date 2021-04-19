@@ -99,13 +99,13 @@ Most of the above-plotted correlations are not surprising (e.g. number of beds w
 
 ![Frequency of property type in Swiss listings](assets/figures/listings-type.png)
 
-As can be observed, rooms are more frequent in Geneva whereas in Vaud and Zurich, it is more common to rent our one's entire place.
+Rooms are more frequent in Geneva whereas in Vaud and Zurich, it is more common to rent our one's entire place.
 
 **How does this affect the distribution of prices for each property type?**
 
 ![Price distribution](assets/figures/listings-price-dist.png)
 
-Vaud provides properties with a large number of beds. On the other hand, Geneva's small offering of entire places contain a surprisingly small amount of beds. The region of Zurich  contains a clear subset of pricy properties, and displays prices generally higher than the other Swiss regions.
+Vaud provides properties with a large number of beds, Geneva's small offering of entire places contain a small amount of beds and Zurich  contains a clear subset of pricy properties, and displays prices generally higher than the other Swiss regions.
 
 **How are review scores correlated between different demands?**
 
