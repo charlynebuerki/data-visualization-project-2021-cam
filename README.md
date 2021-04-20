@@ -66,13 +66,15 @@ Each of the above-mentioned regions contains the following information:
 
 In addition to this, archived data going back to January 2020 is available for some of the datasets. 
 
+We focused on exploring Listings, Calendars and Reviews.
+
 ### Problematic
 
 > Frame the general topic of your visualization and the main axis that you want to develop.
 > - What am I trying to show with my visualization?
 > - Think of an overview for the project, your motivation, and the target audience.
 
-Because of the current pandemic, the hospitality sector has been hit hard. Regardless of recent relaxations of safety measures and the increase in vaccinations, we expect that this year again, holidays in Switzerland will be favoured and encouraged by the government for the Swiss population instead of staying abroad. To encourage this, we plan on giving an insight into the best Airbnb locations in three major regions of Switzerland: Geneva, Vaud and Zurich. Through our visualisations, locals will have the ability to choose the best locations corresponding to their criteria and favour local tourism. Local Airbnb listings owners will equally benefit from more in-depth knowledge about the clients' demands at a regional level, allowing them to tailor their listing to the gathered data. In other words, they will be able to maximise profit by adapting their offer to the regional demands.  
+Because of the current pandemic, the hospitality sector has been hit hard. Regardless of recent relaxations of safety measures and the increase in vaccinations, we expect that this year again, holidays in Switzerland will be favoured and encouraged by the government for the Swiss population instead of going abroad. To encourage this, we plan on giving an insight into the best Airbnb locations in three major regions of Switzerland: Geneva, Vaud and Zurich. Through our visualisations, locals will have the ability to choose the best locations corresponding to their criteria and favour local tourism. Local Airbnb listings owners will equally benefit from more in-depth knowledge about the clients' demands at a regional level, allowing them to tailor their listing to the gathered data. In other words, they will be able to gain insights about the environment where they own a listing and will be able to adapt their offer to the regional demands.  
 
 ### Exploratory Data Analysis
 
@@ -87,42 +89,42 @@ All pre-processing steps for each dataset can be found in `pre-processing.md`.
 
 **Where are the listings situated?**
 
-![Map of listings](assets/figures/listings-map.png)
+![Map of listings](assets/figures/listings/listings-map.png)
 
 Most listings are densely situated in each of the regions' hotspots (Geneva City, Lausanne, and Zurich City respectively). 
 
 **How are certain features distributed and correlated?** 
 
-![Features correlation](assets/figures/listings-correlation.png)
+![Features correlation](assets/figures/listings/listings-correlation.png)
 
 Most of the above-plotted correlations are not surprising (e.g. number of beds with number of bedrooms).
 
-![Frequency of property type in Swiss listings](assets/figures/listings-type.png)
+![Frequency of property type in Swiss listings](assets/figures/listings/listings-type.png)
 
 Rooms are more frequent in Geneva whereas in Vaud and Zurich, it is more common to rent our one's entire place.
 
 **How does this affect the distribution of prices for each property type?**
 
-![Price distribution](assets/figures/listings-price-dist.png)
+![Price distribution](assets/figures/listings/listings-price-dist.png)
 
 Vaud provides properties with a large number of beds, Geneva's small offering of entire places contain a small amount of beds and Zurich  contains a clear subset of pricy properties, and displays prices generally higher than the other Swiss regions.
 
 **How are review scores correlated between different demands?**
 
-![Review score correlation](assets/figures/listings-review-correlation.png)
+![Review score correlation](assets/figures/listings/listings-review-correlation.png)
 
 Cleanliness score is interestingly weakly correlated with the location score, whereas check-in and communication scores are highly correlated.
 
-![Review score correlation](assets/figures/listings-reviews.png)
+![Review score correlation](assets/figures/listings/listings-reviews.png)
 
 When comparing regions, Vaud receives the best reviews out of all Swiss regions. We can also observe that most reviews are very good.
 
 **What words are most common in listing descriptions?**
 
-![Word clouds](assets/figures/listings-wordcloud.png)
+![Word clouds](assets/figures/listings/listings-wordcloud.png)
 
 **What are the top amenities in properties?**
-![Top 5 amenities](assets/figures/listings-amenities.png)
+![Top 5 amenities](assets/figures/listings/listings-amenities.png)
 
 While Wifi and essentials are most important for rooms, kitchen and heating seem to predominate the entire place priorities. 
 
@@ -150,23 +152,19 @@ Price predictions in May 2020 are lower than those made pre-pandemic in almost a
 
 #### Reviews
 
-Reviews can represent Airbnb activity since users will typically review a listing they stayed at shortly after their stay. In this part, we inform ourselves of the overall trends of Airbnb activity within the three regions, limiting ourselves to the top 10 most-reviewed listings, since these are the most pertinent. 
+Reviews represent Airbnb activity since users will typically review a listing shortly after their stay. 
 
-Airbnb Activity :
-From the figure we see the following, noting that in blue important COVID milestones are highlighted:
-* Generally speaking, listings are reviewed primarily during the summer months
-* Up until beginning of 2020 (COVID), the activity in all three regions was increasing
-* Following the restrictions announced, activity all but ceased
-* Following relaxation of restrictions in summer 2020, the area of Zurich rebounded earlier than the french-speaking regions
+**Are there trends in Airbnb listings activity ?**
 
 ![Map of listings](assets/figures/reviews/reviews_top_10.png)
 
-We wanted to gain a more detailed understanding of listings contained within the top 5 most-reviewed data. This allows us to study whether the more-reviewed listings are long established venues or whether they are attractive because they are new. In the first figure, we study the three areas, the second figure zooms in on the listings in Vaud.
+In blue are the significant dates of the pandemic. 
 
-We observe the following:
-* Older listings are reviewed at a constant cyclic rate while newer listings have greater peaks of reviews than the other listings
-* Zurich and Geneva being larger cities have more activity than the Vaud region
-* Despite being the most reviewed listings, this did not save the listings' activites when the COVID restrictions were announced
+Listings are reviewed primarily during the summer months. Up until the beginning of 2020, the activity in all three regions was increasing. Following the annoucned restriction, activity all but ceased, though Zurich rebounded earlier than the french-speaking regions. 
+
+**What are the characteristics of top listings across regions ?**
+
+Older listings are reviewed at a constant cyclic rate while newer listings have greater peaks of reviews. Also, despite being the most-reviewed listings, their activities were still impacted following the restrictions announced. 
 
 ![Map of listings](assets/figures/reviews/top5_reviews_long.png)
 ![Map of listings](assets/figures/reviews/top_5_vaud.png)
@@ -180,18 +178,21 @@ We observe the following:
 > - What source of inspiration do you take? Visualizations that you found on other websites or magazines (might be unrelated to your data).
 > - In case you are using a dataset that you have already explored in another context (ML or ADA course, semester project...), you are required to share the report of that work to outline the differences with the submission for this class.
 
-The Inside Airbnb platform aims to provide information regarding the effects of Airbnb listings and their effects on the economies of the housing and renting markets. The platform allows data visualization on the form of a map, given the different areas selected. 
-We employ their data using an original approach as follows: we focus on 3 specific areas in Switzerland, selecting certain pertinent listings to reflect the local economy. We further aim to provide recommendations to both local tourists and listings owners in order to simultaneously (1) provide personalized recommandations regarding their expectation and (2) boost their visibility and learn from their clients' expectations to overcome the COVID aftermath.
-Contrary to most Airbnb existing visualisations like [this one](https://www.kaggle.com/erikbruin/airbnb-the-amsterdam-story-with-interactive-maps), [this one](https://nycdatascience.com/blog/student-works/how-airbnb-is-in-nyc-interactive-data-visualization-in-r/) or [this one](http://www.columbia.edu/~sg3637/airbnb_final_analysis.html), we focus on the three regions available in Switzerland rather than focusing solely on a city. We are also analysing the data post-COVID restrictions, which gives more insight as to which airbnb locations may be more robust and what can owners do to reproduce such success.
+The Inside Airbnb platform provide information regarding the effects of Airbnb listings on the housing market economy. The platform allows data visualization in a map format. From it, one can select criterions to visualize certain listings.
 
-Some inspiration :
+ Though we employ their data, we distinguish ourselves by: 
+* Focusing on 3 specific areas in Switzerland and selecting certain pertinent listings to reflect the local economy;
+* Studying the Airbnb community post-COVID which, from our research, has not been done yet;
+* Providing information to both local tourists and listings owners in order to simultaneously: 
+    * give recommendations for their wants and needs  
+    * boost the listings’ visibility to overcome the COVID aftermath.
+ 
+Contrary to most Airbnb existing visualizations like [this one](https://www.kaggle.com/erikbruin/airbnb-the-amsterdam-story-with-interactive-maps)(a visualization of Amsterdam listings), [this one](https://nycdatascience.com/blog/student-works/how-airbnb-is-in-nyc-interactive-data-visualization-in-r/) (a question-and-answer study of NYC listings) or [this one](http://www.columbia.edu/~sg3637/airbnb_final_analysis.html) (an in-depth analysis of NYC Airbnb), we focus on the three regions available in Switzerland. We also analyze the data post-COVID restrictions, which yields more insight as to which Airbnb locations may be more robust and what can owners do to reproduce such success.
 
- **COMPLETER**  
-
-* [location and comparaison of attributes on a map](https://multimedia.scmp.com/infographics/news/world/article/3077057/europe-coronavirus/index.html)
-* [uniform style and poignant story telling on complex probles](https://fingfx.thomsonreuters.com/gfx/rngs/FINANCIAL-CRISIS2008/0100805F0BK/index.html)
-* [story telling and simple animations ](https://graphics.reuters.com/EUROPE-MIGRANTS/010070WZ1W2/index.html)
-
+These visualizations provide inspiration for our project:
+* [Europe’s Coronavirus Lockdown Nightmare](https://multimedia.scmp.com/infographics/news/world/article/3077057/europe-coronavirus/index.html) contains interesting visualizations that compare and contrast two areas of the world. We draw inspiration from the way the data is simply presented to showcase the differences, since we will have three regions to compare. 
+* [Notes from the 2008 crisis:10 Years on](https://fingfx.thomsonreuters.com/gfx/rngs/FINANCIAL-CRISIS2008/0100805F0BK/index.html) provides an immersive story telling on a complex issue. The stylistically unique way of presenting the facts is equally impressive as it provides a mesmerizing experience. 
+* [Europe Migrant Crisis: Displaced once more](https://graphics.reuters.com/EUROPE-MIGRANTS/010070WZ1W2/index.html) is a simple visualization story with added value in the animations and interactivity on their graphs. Given that we will have plots with timelines and additional information pertaining to certain timepoints, we find that this visualization is a good example to follow.
 
 ## Milestone 2 (7th May, 5pm)
 
