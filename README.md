@@ -66,6 +66,8 @@ Each of the above-mentioned regions contains the following information:
 
 In addition to this, archived data going back to January 2020 is available for some of the datasets. 
 
+We focused on exploring Listings, Calendars and Reviews.
+
 ### Problematic
 
 > Frame the general topic of your visualization and the main axis that you want to develop.
