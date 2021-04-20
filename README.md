@@ -178,18 +178,21 @@ Older listings are reviewed at a constant cyclic rate while newer listings have 
 > - What source of inspiration do you take? Visualizations that you found on other websites or magazines (might be unrelated to your data).
 > - In case you are using a dataset that you have already explored in another context (ML or ADA course, semester project...), you are required to share the report of that work to outline the differences with the submission for this class.
 
-The Inside Airbnb platform aims to provide information regarding the effects of Airbnb listings and their effects on the economies of the housing and renting markets. The platform allows data visualization on the form of a map, given the different areas selected. 
-We employ their data using an original approach as follows: we focus on 3 specific areas in Switzerland, selecting certain pertinent listings to reflect the local economy. We further aim to provide recommendations to both local tourists and listings owners in order to simultaneously (1) provide personalized recommandations regarding their expectation and (2) boost their visibility and learn from their clients' expectations to overcome the COVID aftermath.
-Contrary to most Airbnb existing visualisations like [this one](https://www.kaggle.com/erikbruin/airbnb-the-amsterdam-story-with-interactive-maps), [this one](https://nycdatascience.com/blog/student-works/how-airbnb-is-in-nyc-interactive-data-visualization-in-r/) or [this one](http://www.columbia.edu/~sg3637/airbnb_final_analysis.html), we focus on the three regions available in Switzerland rather than focusing solely on a city. We are also analysing the data post-COVID restrictions, which gives more insight as to which airbnb locations may be more robust and what can owners do to reproduce such success.
+The Inside Airbnb platform provide information regarding the effects of Airbnb listings on the housing market economy. The platform allows data visualization in a map format. From it, one can select criterions to visualize certain listings.
 
-Some inspiration :
+ Though we employ their data, we distinguish ourselves by: 
+* Focusing on 3 specific areas in Switzerland and selecting certain pertinent listings to reflect the local economy;
+* Studying the Airbnb community post-COVID which, from our research, has not been done yet;
+* Providing information to both local tourists and listings owners in order to simultaneously: 
+    * give recommendations for their wants and needs  
+    * boost the listings’ visibility to overcome the COVID aftermath.
+ 
+Contrary to most Airbnb existing visualizations like [this one](https://www.kaggle.com/erikbruin/airbnb-the-amsterdam-story-with-interactive-maps)(a visualization of Amsterdam listings), [this one](https://nycdatascience.com/blog/student-works/how-airbnb-is-in-nyc-interactive-data-visualization-in-r/) (a question-and-answer study of NYC listings) or [this one](http://www.columbia.edu/~sg3637/airbnb_final_analysis.html) (an in-depth analysis of NYC Airbnb), we focus on the three regions available in Switzerland. We also analyze the data post-COVID restrictions, which yields more insight as to which Airbnb locations may be more robust and what can owners do to reproduce such success.
 
- **COMPLETER**  
-
-* [location and comparaison of attributes on a map](https://multimedia.scmp.com/infographics/news/world/article/3077057/europe-coronavirus/index.html)
-* [uniform style and poignant story telling on complex probles](https://fingfx.thomsonreuters.com/gfx/rngs/FINANCIAL-CRISIS2008/0100805F0BK/index.html)
-* [story telling and simple animations ](https://graphics.reuters.com/EUROPE-MIGRANTS/010070WZ1W2/index.html)
-
+These visualizations provide inspiration for our project:
+* [Europe’s Coronavirus Lockdown Nightmare](https://multimedia.scmp.com/infographics/news/world/article/3077057/europe-coronavirus/index.html) contains interesting visualizations that compare and contrast two areas of the world. We draw inspiration from the way the data is simply presented to showcase the differences, since we will have three regions to compare. 
+* [Notes from the 2008 crisis:10 Years on](https://fingfx.thomsonreuters.com/gfx/rngs/FINANCIAL-CRISIS2008/0100805F0BK/index.html) provides an immersive story telling on a complex issue. The stylistically unique way of presenting the facts is equally impressive as it provides a mesmerizing experience. 
+* [Europe Migrant Crisis: Displaced once more](https://graphics.reuters.com/EUROPE-MIGRANTS/010070WZ1W2/index.html) is a simple visualization story with added value in the animations and interactivity on their graphs. Given that we will have plots with timelines and additional information pertaining to certain timepoints, we find that this visualization is a good example to follow.
 
 ## Milestone 2 (7th May, 5pm)
 
