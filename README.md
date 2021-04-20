@@ -72,7 +72,7 @@ In addition to this, archived data going back to January 2020 is available for s
 > - What am I trying to show with my visualization?
 > - Think of an overview for the project, your motivation, and the target audience.
 
-Because of the current pandemic, the hospitality sector has been hit hard. Regardless of recent relaxations of safety measures and the increase in vaccinations, we expect that this year again, holidays in Switzerland will be favoured and encouraged by the government for the Swiss population instead of staying abroad. To encourage this, we plan on giving an insight into the best Airbnb locations in three major regions of Switzerland: Geneva, Vaud and Zurich. Through our visualisations, locals will have the ability to choose the best locations corresponding to their criteria and favour local tourism. Local Airbnb listings owners will equally benefit from more in-depth knowledge about the clients' demands at a regional level, allowing them to tailor their listing to the gathered data. In other words, they will be able to maximise profit by adapting their offer to the regional demands.  
+Because of the current pandemic, the hospitality sector has been hit hard. Regardless of recent relaxations of safety measures and the increase in vaccinations, we expect that this year again, holidays in Switzerland will be favoured and encouraged by the government for the Swiss population instead of going abroad. To encourage this, we plan on giving an insight into the best Airbnb locations in three major regions of Switzerland: Geneva, Vaud and Zurich. Through our visualisations, locals will have the ability to choose the best locations corresponding to their criteria and favour local tourism. Local Airbnb listings owners will equally benefit from more in-depth knowledge about the clients' demands at a regional level, allowing them to tailor their listing to the gathered data. In other words, they will be able to gain insights about the environment where they own a listing and will be able to adapt their offer to the regional demands.  
 
 ### Exploratory Data Analysis
 
@@ -150,23 +150,19 @@ Price predictions in May 2020 are lower than those made pre-pandemic in almost a
 
 #### Reviews
 
-Reviews can represent Airbnb activity since users will typically review a listing they stayed at shortly after their stay. In this part, we inform ourselves of the overal trends of Airbnb activity within the three regions, limiting ourselves to the top 10 most-reviewed listings, since these are the most pertinent. 
+Reviews represent Airbnb activity since users will typically review a listing shortly after their stay. 
 
-Airbnb Activity :
-From the figure we see the following, noting that in blue important COVID milestones are highlighted:
-* Generally speaking, listings are reviewed primarily during the summer months
-* Up until beginning of 2020 (COVID), the activity in all three regions was increasing
-* Following the restrictions announced, activity all but ceased
-* Following relaxation of restrictions in summer 2020, the area of Zurich rebounded earlier than the french-speaking regions
+**Are there trends in Airbnb listings activity ?**
 
 ![Map of listings](assets/figures/reviews/reviews_top_10.png)
 
-We wanted to gain a more detailed understanding of listings contained within the top 5 most-reviewed data. This allows us to study whether the more-reviewed listings are long established venues or whether they are attractive because they are new. In the first figure, we study the three areas, the second figure zooms in on the listings in Vaud.
+In blue are the significant dates of the pandemic. 
 
-We observe the following:
-* Older listings are reviewed at a constant cyclic rate while newer listings have greater peaks of reviews than the other listings
-* Zurich and Geneva being larger cities have more activity than the Vaud region
-* Despite being the most reviewed listings, this did not save the listings' activites when the COVID restrictions were announced
+Listings are reviewed primarily during the summer months. Up until the beginning of 2020, the activity in all three regions was increasing. Following the annoucned restriction, activity all but ceased, though Zurich rebounded earlier than the french-speaking regions. 
+
+**What are the characteristics of top listings across regions ?**
+
+Older listings are reviewed at a constant cyclic rate while newer listings have greater peaks of reviews. Also, despite being the most-reviewed listings, their activities were still impacted following the restrictions announced. 
 
 ![Map of listings](assets/figures/reviews/top5_reviews_long.png)
 ![Map of listings](assets/figures/reviews/top_5_vaud.png)
