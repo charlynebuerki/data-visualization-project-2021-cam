@@ -4,7 +4,7 @@
 | -------------- | ------ |
 | Charlyne Bürki | 261415 |
 | Arnaud Dhaene  | 269883 |
-| Marijn van der Meer | |
+| Marijn van der Meer | 247273 |
 
 [Milestone 1](#milestone-1) • [Milestone 2](#milestone-2) • [Milestone 3](#milestone-3)
 
@@ -150,7 +150,7 @@ Price predictions in May 2020 are lower than those made pre-pandemic in almost a
 
 #### Reviews
 
-Reviews can represent Airbnb activity since users will typically review a listing they stayed at shortly after their stay. In this part, we inform ourselves of the overal trends of Airbnb activity within the three regions, limiting ourselves to the top 10 most-reviewed listings, since these are the most pertinent. 
+Reviews can represent Airbnb activity since users will typically review a listing they stayed at shortly after their stay. In this part, we inform ourselves of the overall trends of Airbnb activity within the three regions, limiting ourselves to the top 10 most-reviewed listings, since these are the most pertinent. 
 
 Airbnb Activity :
 From the figure we see the following, noting that in blue important COVID milestones are highlighted:
