@@ -36,7 +36,7 @@ Each of the above-mentioned regions contains the following information:
 
 In addition to this, archived data going back to January 2020 is available for some of the datasets. 
 
-### Listings:
+### Listings
 
 ##### Pre-processing
 
@@ -55,7 +55,7 @@ The features for the available listings are:
 * Reviews (rating, accuracy, cleanliness, check-in, communication, location, value, amount of reviews per month)
 * Availability (minimum and maximum number of nights, availability for the next 30, 60, 90, and 365 days)
 
-#### Calendar
+### Calendar
 
 ##### Pre-processing
 
@@ -69,7 +69,7 @@ The features for the calendar data after pre-processing are:
 * Price [$/night]
 * Max/Min nights
 
-#### Reviews
+### Reviews
 
 ##### Pre-processing
 
