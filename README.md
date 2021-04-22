@@ -12,21 +12,24 @@
 
 ```
 ├── assets
-|   ├── figures      <- Figures generated that are incorporated in README.md
+|   └── figures       <- Figures generated that are incorporated in README.md
+|       ├── calendar  <- figures relevant to the calendar data
+|       ├── listings  <- figures relevant to the listings data
+|       └── reviews   <- figures relevant to the reviews data
 ├── config
 |   └── index.js   
 ├── data
-|   ├── README.md    <- More info about data filenames
-|   ├── geneva       <- Geneva region data
-|   ├── vaud         <- Vaud region data
-|   └── zurich       <- Zurich region data
-├── notebooks        <- Python notebooks
+|   ├── README.md     <- More info about data filenames
+|   ├── geneva        <- Geneva region data
+|   ├── vaud          <- Vaud region data
+|   └── zurich        <- Zurich region data
+├── notebooks         <- Python notebooks
 |   └── eda.ipnyb
 ├── scripts
 ├── .gitignore
 ├── index.js
 ├── package.json
-├── README.md        <- The current file
+├── README.md         <- The current file
 ```
 
 ## Milestone 1 (23rd April, 5pm)
@@ -82,7 +85,7 @@ Because of the current pandemic, the hospitality sector has been hit hard. Regar
 > - Show some basic statistics and get insights about the data
 
 ## Pre-processing
-All pre-processing steps for each dataset can be found in `pre-processing.md`.
+All pre-processing steps for each dataset can be found in [`pre-processing.md`](pre-processing.md).
 
 ## Data Insights
 #### Listings
@@ -187,7 +190,7 @@ Contrary to most Airbnb existing visualisations like [this one](https://www.kagg
 
 These visualisations provide inspiration for our project:
 * [Europe’s Coronavirus Lockdown Nightmare](https://multimedia.scmp.com/infographics/news/world/article/3077057/europe-coronavirus/index.html) contains interesting visualisations that compare and contrast two areas of the world. We draw inspiration from the way the data is simply presented to showcase the differences, since we will have three regions to compare. 
-* [Notes from the 2008 crisis:10 Years on](https://fingfx.thomsonreuters.com/gfx/rngs/FINANCIAL-CRISIS2008/0100805F0BK/index.html) provides an immersive story telling on a complex issue. The stylistically unique way of presenting the facts is equally impressive as it provides a mesmerising experience. 
+* [Notes from the 2008 crisis: 10 Years on](https://fingfx.thomsonreuters.com/gfx/rngs/FINANCIAL-CRISIS2008/0100805F0BK/index.html) provides an immersive story telling on a complex issue. The stylistically unique way of presenting the facts is equally impressive as it provides a mesmerising experience. 
 * [Europe Migrant Crisis: Displaced once more](https://graphics.reuters.com/EUROPE-MIGRANTS/010070WZ1W2/index.html) is a simple visualisation story with added value in the animations and interactivity on their graphs. Given that we will have plots with timelines and additional information pertaining to certain timepoints, we find that this visualisation is a good example to follow.
 
 ## Milestone 2 (7th May, 5pm)
