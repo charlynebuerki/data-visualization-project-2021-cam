@@ -32,6 +32,15 @@ most probably the lecture on maps (lecture 08). Because we want a shaded map, we
 ### Visualisation 2: 
 ![Figure 2](figures/fig2.jpg)
 
+This figure will allow users to interactively select two listing features. The features will be aggregated by listing neighborhood and displayed on two side-by-side Choropleth maps. Beside the maps will be a scatterplot of the two features and with a regression line. This will allow users to visualize the distribution of selected features within a map and investigate the relationship between listing aspects. Ultimately, this will allow them to gain insights with respect to the available listings in a specific region and make an informed decision about their potential upcoming stay. To dive deeper in this initiative, there will also be selection tools and sliders to filter out certain listings from the ones displayed on the map.
+
+tools needed:
+ 
+* Lecture 4 (D3)
+* Lecture 5 (Interactive D3)
+* Lecture 7 (Designing vizualisations)
+* Lecture 8 (maps)
+
 ### Visualisation 3: further insights for owners 
 ![Figure 3](figures/fig3.jpg)
 First, the user will be able to select from the menu which region to select. The data is presented in a way that separates the types of Airbnb listings into two categories: renting a room or renting a full place (house or apartment). These categories are further divided into subcategories based on price ranges. For each subcategory, we will show which amenities are available for that price range by grouping edges and showcasing which is more likely with regards to the edge width. This will allow Airbnb owners to identify which common amenities are found for their listing’s price range and what they should add to better respond to the client’s demands. 
