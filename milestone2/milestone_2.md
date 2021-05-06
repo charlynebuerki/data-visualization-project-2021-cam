@@ -22,6 +22,8 @@ After that, we will have two buttons leading to the “insights for users” or 
 ### Visualisation 1: global insights about regional possibilities
 ![Figure 1](figures/fig1.jpg)
 
+Thanks to this interactive map, users will get to see regional statistics for Vaud, Geneva and Zurich. Unfortunately there is only information for the city of Zurich and not the canton, but all three areas are separated into districts. All districts will show the average price per night for the listings at that location. Districts will be shaded according to the average price/night category. This way, users will get an insight into the price range to expect per district. Furthermore, hovering above a district will give more overall statistical information about the listings in that region (e.g. average number of beds, average rating, etc). Finally, the user will have the ability to change the date to see the price evolution and choose accordingly.
+
 ### Visualisation 2: 
 ![Figure 2](figures/fig2.jpg)
 
