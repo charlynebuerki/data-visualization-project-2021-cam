@@ -8,30 +8,6 @@
 
 [Milestone 1](#milestone-1) • [Milestone 2](#milestone-2) • [Milestone 3](#milestone-3)
 
-## Repository structure
-
-```
-├── assets
-|   └── figures       <- Figures generated that are incorporated in README.md
-|       ├── calendar  <- figures relevant to the calendar data
-|       ├── listings  <- figures relevant to the listings data
-|       └── reviews   <- figures relevant to the reviews data
-├── config
-|   └── index.js   
-├── data
-|   ├── README.md     <- More info about data filenames
-|   ├── geneva        <- Geneva region data
-|   ├── vaud          <- Vaud region data
-|   └── zurich        <- Zurich region data
-├── notebooks         <- Python notebooks
-|   └── eda.ipnyb
-├── scripts
-├── .gitignore
-├── index.js
-├── package.json
-├── README.md         <- The current file
-```
-
 ## Milestone 1 (23rd April, 5pm)
 
 **10% of the final grade**
@@ -87,42 +63,42 @@ All pre-processing steps for each dataset can be found in [`pre-processing.md`](
 
 **Where are the listings situated?**
 
-![Map of listings](assets/figures/listings/listings-map.png)
+![Map of listings](figures/listings/listings-map.png)
 
 Most listings are densely situated in each of the regions' hotspots (Geneva City, Lausanne, and Zurich City respectively). 
 
 **How are certain features distributed and correlated?** 
 
-![Features correlation](assets/figures/listings/listings-correlation.png)
+![Features correlation](figures/listings/listings-correlation.png)
 
 Most of the above-plotted correlations are not surprising (e.g. number of beds with number of bedrooms).
 
-![Frequency of property type in Swiss listings](assets/figures/listings/listings-type.png)
+![Frequency of property type in Swiss listings](figures/listings/listings-type.png)
 
 Rooms are more frequent in Geneva whereas in Vaud and Zurich, it is more common to rent our one's entire place.
 
 **How does this affect the distribution of prices for each property type?**
 
-![Price distribution](assets/figures/listings/listings-price-dist.png)
+![Price distribution](figures/listings/listings-price-dist.png)
 
 Vaud provides properties with a large number of beds, Geneva's small offering of entire places contain a small amount of beds and Zurich  contains a clear subset of pricy properties, and displays prices generally higher than the other Swiss regions.
 
 **How are review scores correlated between different demands?**
 
-![Review score correlation](assets/figures/listings/listings-review-correlation.png)
+![Review score correlation](figures/listings/listings-review-correlation.png)
 
 Cleanliness score is interestingly weakly correlated with the location score, whereas check-in and communication scores are highly correlated.
 
-![Review score correlation](assets/figures/listings/listings-reviews.png)
+![Review score correlation](figures/listings/listings-reviews.png)
 
 When comparing regions, Vaud receives the best reviews out of all Swiss regions. We can also observe that most reviews are very good.
 
 **What words are most common in listing descriptions?**
 
-![Word clouds](assets/figures/listings/listings-wordcloud.png)
+![Word clouds](figures/listings/listings-wordcloud.png)
 
 **What are the top amenities in properties?**
-![Top 5 amenities](assets/figures/listings/listings-amenities.png)
+![Top 5 amenities](figures/listings/listings-amenities.png)
 
 While Wifi and essentials are most important for rooms, kitchen and heating seem to predominate the entire place priorities. 
 
@@ -130,7 +106,7 @@ While Wifi and essentials are most important for rooms, kitchen and heating seem
 
 **What is the difference in average price of listings between the three locations?**
 
-![Map of listings](assets/figures/calendar/calendar-pies.png)
+![Map of listings](figures/calendar/calendar-pies.png)
 
 Geneva and Vaud have more listings in the cheaper category than Zurich. Zurich also has a significant part of listings in the higher [500-600$/night] category compared to the others. 
 
@@ -138,9 +114,9 @@ Geneva and Vaud have more listings in the cheaper category than Zurich. Zurich a
 
 We plot the time-series of average price predictions from four different periods: before the pandemic (January 2020), during the first wave (May 2020) and second wave (December 2020-February 2021). Local holidays in grey dotted lines and significant dates of the pandemic in red dotted lines. 
 
-![Map of listings](assets/figures/calendar/calendar-price-evolution-vaud.png)
-![Map of listings](assets/figures/calendar/calendar-price-evolution-geneva.png)
-![Map of listings](assets/figures/calendar/calendar-price-evolution-zurich.png)
+![Map of listings](figures/calendar/calendar-price-evolution-vaud.png)
+![Map of listings](figures/calendar/calendar-price-evolution-geneva.png)
+![Map of listings](figures/calendar/calendar-price-evolution-zurich.png)
 
 Price predictions in May 2020 are lower than those made pre-pandemic in almost all categories. The 13th of March had a very important drop in prices in Geneva. We see also the impact on prices from holidays such as Easter and New Year.
 
@@ -150,7 +126,7 @@ Reviews represent Airbnb activity since users will typically review a listing sh
 
 **Are there trends in Airbnb listings activity ?**
 
-![Map of listings](assets/figures/reviews/reviews_top_10.png)
+![Map of listings](figures/reviews/reviews_top_10.png)
 
 In blue are the significant dates of the pandemic. 
 
@@ -160,8 +136,8 @@ Listings are reviewed primarily during the summer months. Up until the beginning
 
 Older listings are reviewed at a constant cyclic rate while newer listings have greater peaks of reviews. Also, despite being the most-reviewed listings, their activities were still impacted following the restrictions announced. 
 
-![Map of listings](assets/figures/reviews/top5_reviews_long.png)
-![Map of listings](assets/figures/reviews/top_5_vaud.png)
+![Map of listings](figures/reviews/top5_reviews_long.png)
+![Map of listings](igures/reviews/top_5_vaud.png)
 
 
 ### Related work
@@ -196,10 +172,4 @@ These visualisations provide inspiration for our project:
 ## Milestone 3 (4th June, 5pm)
 
 **80% of the final grade**
-
-
-## Late policy
-
-- < 24h: 80% of the grade for the milestone
-- < 48h: 70% of the grade for the milestone
 

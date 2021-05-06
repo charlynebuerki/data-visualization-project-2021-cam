@@ -11,11 +11,6 @@
 ## Repository structure
 
 ```
-├── assets
-|   └── figures       <- Figures generated that are incorporated in README.md
-|       ├── calendar  <- figures relevant to the calendar data
-|       ├── listings  <- figures relevant to the listings data
-|       └── reviews   <- figures relevant to the reviews data
 ├── config
 |   └── index.js   
 ├── data
@@ -31,6 +26,10 @@
 ├── package.json
 ├── README.md         <- The current file
 ├── milestone1
+|   └── figures           <- Figures generated that are incorporated in milestone_1.md       
+|   	├── calendar  <- figures relevant to the calendar data
+|   	├── listings  <- figures relevant to the listings data
+|   	└── reviews   <- figures relevant to the reviews data
 |   ├── milestone_1.md     <- Milestone 1 report
 |   ├── pre-processing.md        <- More info on pre-processing for milestone 1
 ├── milestone2
