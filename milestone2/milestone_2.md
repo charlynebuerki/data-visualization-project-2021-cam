@@ -22,13 +22,13 @@ Before the interactive visualisations,  our site will exhibit general statistics
 After that, we will have two buttons leading to the “insights for users” or “insights for hosts”.  Our main framework will contain 3 principle visualisation: 
 
 ### Visualisation 1: global insights about regional possibilities
-![Map of listings](figures/fig1.png)
+![Map of listings](figures/fig1.jpg)
 
 ### Visualisation 2: 
-![Map of listings](figures/fig2.png)
+![Map of listings](figures/fig2.jpg)
 
 ### Visualisation 3: further insights for owners 
-![Map of listings](figures/fig3.png)
+![Map of listings](figures/fig3.jpg)
 First, the user will be able to select from the menu which region to select. The data is presented in a way that separates the types of Airbnb listings into two categories: renting a room or renting a full place (house or apartment). These categories are further divided into subcategories based on price ranges. For each subcategory, we will show which amenities are available for that price range by grouping edges and showcasing which is more likely with regards to the edge width. This will allow Airbnb owners to identify which common amenities are found for their listing’s price range and what they should add to better respond to the client’s demands. 
 
 tools needed:
@@ -36,9 +36,6 @@ items from the lecture on graphs (lecture 10), especially on edge groupings
 the reference on Sankey flow diagrams, as visualised here.(https://www.d3-graph-gallery.com/sankey.html)  
 
 We wish to finish the website with a testimonials section where some of our friends will leave comments on employing our website. 
-
-### Visualisation 4: 
-![Map of listings](figures/fig4.png)
 
 ## To go further: 
 Some other ideas that we may include should we see that the visualisations are insufficient in providing ample information to the users and owners include :
