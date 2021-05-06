@@ -6,8 +6,6 @@
 | Arnaud Dhaene  | 269883 |
 | Marijn van der Meer | 247273 |
 
-[Milestone 1](#milestone-1) • [Milestone 2](#milestone-2) • [Milestone 3](#milestone-3)
-
 ## Milestone 2 (7th May, 5pm)
 **10% of the final grade**
 
@@ -22,13 +20,13 @@ Before the interactive visualisations,  our site will exhibit general statistics
 After that, we will have two buttons leading to the “insights for users” or “insights for hosts”.  Our main framework will contain 3 principle visualisation: 
 
 ### Visualisation 1: global insights about regional possibilities
-![Map of listings](figures/fig1.jpg)
+![Figure 1](figures/fig1.jpg)
 
 ### Visualisation 2: 
-![Map of listings](figures/fig2.jpg)
+![Figure 2](figures/fig2.jpg)
 
 ### Visualisation 3: further insights for owners 
-![Map of listings](figures/fig3.jpg)
+![Figure 3](figures/fig3.jpg)
 First, the user will be able to select from the menu which region to select. The data is presented in a way that separates the types of Airbnb listings into two categories: renting a room or renting a full place (house or apartment). These categories are further divided into subcategories based on price ranges. For each subcategory, we will show which amenities are available for that price range by grouping edges and showcasing which is more likely with regards to the edge width. This will allow Airbnb owners to identify which common amenities are found for their listing’s price range and what they should add to better respond to the client’s demands. 
 
 tools needed:
@@ -38,8 +36,12 @@ the reference on Sankey flow diagrams, as visualised here.(https://www.d3-graph-
 We wish to finish the website with a testimonials section where some of our friends will leave comments on employing our website. 
 
 ## To go further: 
-Some other ideas that we may include should we see that the visualisations are insufficient in providing ample information to the users and owners include :
+Some other ideas that we may include should we see that the visualisations are insufficient in providing ample information to the users and owners include:
 * The introductory visualisation of the Airbnb activity as a scatterplot of listings. This visualisation would trace the Airbnb activity  of reviews in the three regions, distinguished by three colors. The user would be able to select a time point throughout the history, and be able to visualize the number of existing listings that were reviewed, indicating the Airbnb activity. Though not very quantitative, this visualisation could be an interesting qualitative visualisation that would draw attention and entice users to dig in deeper into the website. The inspiration comes from Europe’s Coronavirus Lockdown Nightmare introductory visualisation. 
+
+![Figure 4](figures/fig4.jpg)
+
+
 * A complementary visualisation would be a bubble plot, plotting listing price vs the number of reviews obtained. For each listing, its “bubble” size would be proportional to the average score listed on Airbnb. This way, owners could observe whether a more expensive listing correlates to more reviews and whether this indicates a better rating. 
 
 ## Functional website:
