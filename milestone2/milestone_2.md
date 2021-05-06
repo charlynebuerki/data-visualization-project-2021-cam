@@ -15,7 +15,7 @@ The goal of our project is to provide a platform for both Airbnb users and Airbn
 The entirety of our website will be accessible to both types of users. However, there will be two explicitly-labeled sections separate for users and owners. 
 
 ### Sketches and tools needed:
-Before the interactive visualisations,  our site will exhibit general statistics pertaining to the three regions (Vaud, Geneva and Zurich) and Airbnb information. Because the goal is to stimulate Swiss tourism, the subsequent section will contain the de-confinement timeline outlined by the Federal Council's proposal(https://www.admin.ch/gov/fr/accueil/documentation/communiques.msg-id-83303.html)(unfortunately, it’s not available in english). 
+Before the interactive visualisations,  our site will exhibit general statistics pertaining to the three regions (Vaud, Geneva and Zurich) and Airbnb information. Because the goal is to stimulate Swiss tourism, the subsequent section will contain the de-confinement timeline outlined by the [Federal Council's proposal](https://www.admin.ch/gov/fr/accueil/documentation/communiques.msg-id-83303.html)(unfortunately, it’s not available in english). 
 
 After that, we will have two buttons leading to the “insights for users” or “insights for hosts”.  Our main framework will contain 3 principle visualisation: 
 
@@ -38,7 +38,7 @@ First, the user will be able to select from the menu which region to select. The
 
 tools needed:
 * items from the lecture on graphs (lecture 10), especially on edge groupings
-* the reference on Sankey flow diagrams, as visualised here(https://www.d3-graph-gallery.com/sankey.html)  
+* the reference on Sankey flow diagrams, as visualised [here](https://www.d3-graph-gallery.com/sankey.html).  
 
 We wish to finish the website with a testimonials section where some of our friends will leave comments on employing our website. 
 
