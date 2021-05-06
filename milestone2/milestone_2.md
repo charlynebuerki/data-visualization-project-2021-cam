@@ -38,11 +38,10 @@ the reference on Sankey flow diagrams, as visualised here.(https://www.d3-graph-
 We wish to finish the website with a testimonials section where some of our friends will leave comments on employing our website. 
 
 ## To go further: 
-Some other ideas that we may include should we see that the visualisations are insufficient in providing ample information to the users and owners include:
-* The introductory visualisation of the Airbnb activity as a scatterplot of listings. This visualisation would trace the Airbnb activity  of reviews in the three regions, distinguished by three colors. The user would be able to select a time point throughout the history, and be able to visualize the number of existing listings that were reviewed, indicating the Airbnb activity. Though not very quantitative, this visualisation could be an interesting qualitative visualisation that would draw attention and entice users to dig in deeper into the website. The inspiration comes from Europe’s Coronavirus Lockdown Nightmare introductory visualisation. 
-
+Some other ideas that we could include should we see that the visualisations are insufficient in providing ample information to the users and owners include:
 ![Figure 4](figures/fig4.jpg)
 
+* The introductory visualisation of the Airbnb activity as a scatterplot of listings. This visualisation would trace the Airbnb activity  of reviews in the three regions, distinguished by three colours. The user would be able to select a time point throughout the available history, and be able to visualise the number of existing listings that were reviewed, indicating the Airbnb activity. Though not very quantitative, this visualisation could be an interesting qualitative visualisation that would draw attention and entice users to dig in deeper into the website. The inspiration comes from Europe’s Coronavirus Lockdown Nightmare introductory visualisation. 
 
 * A complementary visualisation would be a bubble plot, plotting listing price vs the number of reviews obtained. For each listing, its “bubble” size would be proportional to the average score listed on Airbnb. This way, owners could observe whether a more expensive listing correlates to more reviews and whether this indicates a better rating. 
 
