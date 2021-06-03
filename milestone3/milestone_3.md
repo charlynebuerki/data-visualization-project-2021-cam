@@ -25,6 +25,10 @@ There are 3 separate js files for the 3 different visualisations.
 
 To launch our website, you can simply click on the above link. 
 
+## intended usage
+
+Simply launch the website and begin reading through from the beginning ! Our website is a continuous single scrowl which allows for smooth transition between the different sections of our website -- namely for naive users, statisticians and for hosts. 
+
 
 
 
