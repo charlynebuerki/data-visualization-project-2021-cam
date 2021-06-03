@@ -17,18 +17,16 @@
 # Hosting Github Repository:
 * All of the website's code is available [here](https://github.com/arnauddhaene/airbnb-visualized/tree/website).
 
-##  technical setup
+## Technical setup
 
-The main website and its files are hosted on the branch "website" of our repository. All assets of the website (including javascript code, styling, images and external libraries) are found under "assets" folder while all the employed data for our visualisations is found under "data". 
+The main website and its files are hosted on the branch "website" of our repository. All assets of the website (including javascript code, styling, images and external libraries) are found under "assets" folder whilst all the employed data for our visualisations is found under "data" on the main branch. 
 
-There are 3 separate js files for the 3 different visualisations. 
+There are 3 separate JavaScript files for the 3 different d3 visualisations. There is also an additional JavaScript file that was employed for the website's general configuration.
+
+We used d3 version 6 and a bootstrap template to make our site look nice. 
 
 To launch our website, you can simply click on the above link. 
 
-## intended usage
+## Intended usage
 
-Simply launch the website and begin reading through from the beginning ! Our website is a continuous single scrowl which allows for smooth transition between the different sections of our website -- namely for naive users, statisticians and for hosts. 
-
-
-
-
+Simply launch the website and begin reading through from the beginning! Our website is a continuous single scroll which allows for smooth transition between the different sections of our website -- namely for naive users, statisticians and for hosts. 
