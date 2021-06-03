@@ -8,7 +8,23 @@
 
 ## Milestone 3 (4th June, 5pm)
 
-# Functional website:
-Our final website is available [here](https://arnauddhaene.github.io/airbnb-visualized/).
-The screencast is available here.
-The process book is available here.   
+# Accessing our Website, Screencast & Process Book:
+
+* Our final website is available [here](https://arnauddhaene.github.io/airbnb-visualized/).
+* The screencast is available [here]().
+* The process book is available [here]().  
+
+# Hosting Github Repository:
+* All of the website's code is available [here](https://github.com/arnauddhaene/airbnb-visualized/tree/website).
+
+##  technical setup
+
+The main website and its files are hosted on the branch "website" of our repository. All assets of the website (including javascript code, styling, images and external libraries) are found under "assets" folder while all the employed data for our visualisations is found under "data". 
+
+There are 3 separate js files for the 3 different visualisations. 
+
+To launch our website, you can simply click on the above link. 
+
+
+
+
