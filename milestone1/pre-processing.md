@@ -4,7 +4,7 @@
 | -------------- | ------ |
 | Charlyne Bürki | 261415 |
 | Arnaud Dhaene  | 269883 |
-| Marijn van der Meer | |
+| Marijn van der Meer | 247273 |
 
 ## Pre-processing for Milestone 1: 
 
