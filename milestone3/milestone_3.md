@@ -11,7 +11,7 @@
 # Accessing our Website, Screencast & Process Book:
 
 * Our final website is available [here](https://arnauddhaene.github.io/airbnb-visualized/).
-* The screencast is available [here]().
+* The screencast is available [here](https://youtu.be/YPW7INtsVQ0).
 * The process book is available [here]().  
 
 # Hosting Github Repository:
