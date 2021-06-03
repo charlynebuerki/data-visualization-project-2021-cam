@@ -12,7 +12,7 @@
 
 * Our final website is available [here](https://arnauddhaene.github.io/airbnb-visualized/).
 * The screencast is available [here](https://youtu.be/YPW7INtsVQ0).
-* The process book is available [here](https://docs.google.com/presentation/d/e/2PACX-1vR3lIwxF4JENsSGzBKgyljMQD1gPZVDIREuUVs-cf-JuzILeMPKcGmlflpbh8yjydpMUMgbZ0k_WIOn/pub?start=false&loop=true&delayms=15000&slide=id.gdafd9e1c46_0_492). A PDF version is equally available [here](https://github.com/com-480-data-visualization/data-visualization-project-2021-cam/blob/master/milestone3/Data%20Visualization%20Course%20EPFL%202021%20-%20Process%20Book%20team%20CAM.pdf).  
+* The process book is available [here](https://docs.google.com/presentation/d/e/2PACX-1vR3lIwxF4JENsSGzBKgyljMQD1gPZVDIREuUVs-cf-JuzILeMPKcGmlflpbh8yjydpMUMgbZ0k_WIOn/pub?start=false&loop=true&delayms=15000&slide=id.p). A PDF version is equally available [here](https://github.com/com-480-data-visualization/data-visualization-project-2021-cam/blob/master/milestone3/Data%20Visualization%20Course%20EPFL%202021%20-%20Process%20Book%20team%20CAM.pdf).  
 
 # Hosting Github Repository:
 * All of the website's code is available [here](https://github.com/arnauddhaene/airbnb-visualized/tree/website).
