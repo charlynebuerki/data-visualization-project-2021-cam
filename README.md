@@ -6,7 +6,7 @@
 | Arnaud Dhaene  | 269883 |
 | Marijn van der Meer | 247273 |
 
-[Milestone 1](https://github.com/com-480-data-visualization/data-visualization-project-2021-cam/blob/master/milestone1/pre-processing.md) • [Milestone 2](https://github.com/com-480-data-visualization/data-visualization-project-2021-cam/blob/master/milestone2/milestone_2.md) • [Milestone 3](#milestone-3)
+[Milestone 1](https://github.com/com-480-data-visualization/data-visualization-project-2021-cam/blob/master/milestone1/pre-processing.md) • [Milestone 2](https://github.com/com-480-data-visualization/data-visualization-project-2021-cam/blob/master/milestone2/milestone_2.md) • [Milestone 3](https://github.com/com-480-data-visualization/data-visualization-project-2021-cam/blob/master/milestone3/milestone_3.md)
 
 ## Repository structure
 
