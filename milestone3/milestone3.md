@@ -8,6 +8,10 @@
 
 ## Milestone 3 (4th June, 5pm)
 
+# How can you use our project ? 
+
+Nothing more simple ! Just visit our website and scroll down, I'm sure you'll have fun playing with what we developped !
+
 # Accessing our Website, Screencast & Process Book:
 
 * Our final website is available [here](https://arnauddhaene.github.io/airbnb-visualized/).
